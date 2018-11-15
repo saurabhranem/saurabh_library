@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py_advanced_search_list",
-    version="0.0.2",
+    name="py_advanced_search_list_prod",
+    version="0.0.1",
     author="Saurabh",
     author_email="saurabhrane.m@gmail.com",
     description="Package to advance search",
