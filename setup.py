@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py_advanced_srch_list",
+    name="py_advanced_srch_lst",
     version="0.0.1",
     author="Saurabh",
     author_email="saurabhrane.m@gmail.com",
