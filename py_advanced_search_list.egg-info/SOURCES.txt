@@ -1,7 +1,0 @@
-README.md
-setup.py
-py_advanced_search_list.egg-info/PKG-INFO
-py_advanced_search_list.egg-info/SOURCES.txt
-py_advanced_search_list.egg-info/dependency_links.txt
-py_advanced_search_list.egg-info/top_level.txt
-py_library/__init__.py
