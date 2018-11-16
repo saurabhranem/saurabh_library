@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py_advanced_search_list_prod",
-    version="0.0.1",
+    version="0.0.2",
     author="Saurabh",
     author_email="saurabhrane.m@gmail.com",
     description="Package to advance search",
@@ -18,4 +18,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'fuzzywuzzy',
+        'fuzzywuzzy[speedup]',
+    ]
 )
