@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py_advanced_search_list_prod",
-    version="0.0.2",
+    name="data_string_search",
+    version="0.0.6",
     author="Saurabh",
     author_email="saurabhrane.m@gmail.com",
     description="Package to advance search",
@@ -23,3 +23,4 @@ setuptools.setup(
         'fuzzywuzzy[speedup]',
     ]
 )
+

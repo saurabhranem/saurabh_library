@@ -1,12 +1,7 @@
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
-db_list =[
-    [1, "redmi S3","img1"],
-    [2, "oneplus 3","moto"],
-    [3, "oneplus 1","img3"],
-    [4, "moto 3","img4"],
-]
-def search(list, limit, score_cutoff):
+db_list = []
+def search(list, db_list, limit, score_cutoff):
     result = process.extractBests(list, db_list, limit=limit, score_cutoff=score_cutoff)
     list = []
     for each in result:
