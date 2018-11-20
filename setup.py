@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data_string_search",
-    version="0.0.6",
+    version="0.0.7",
     author="Saurabh",
     author_email="saurabhrane.m@gmail.com",
     description="Package to advance search",
@@ -23,4 +23,3 @@ setuptools.setup(
         'fuzzywuzzy[speedup]',
     ]
 )
-
